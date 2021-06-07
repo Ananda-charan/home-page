@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="..\CSS\stylesheet.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="..\HTML\index.html"><img src="..\IMAGES\logo.jpg" height="100px" width="100px"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="../HTML/about.html">ABOUT ME</a></li>
+                    <li><a href="../HTML/qualifications.html">QUALIFICATIONS</a></li>
+                    <li><a href="../HTML/Contact.html">CONTACT ME</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Aatish Kumar Moharana</h1>
+    <p>Hello everyone my name is Aatish Kumar Moharana I am currently pursuing my btech in CSE from CET,BBSR</p>
+    <a href="" class="hero">Link For My Bio</a>
+</div>
+    </section>
+<!-- About me  -->
+    <section class="Aboutme">
+        <h1>ABOUT ME</h1>
+        <p>My name is Aatish Kumar Moharana. My Fathers name is Ajit Kumar Moharana .My mothers name is Chhabi Rani Moharana
+            My brother name is Amrit Moharana.I have completed my schooling from DAV Public School CDA Sec-6 Cuttack. 
+            I am a Mathematics lover. I have keen interest on Space Science - "COSMOS". In Future I want to Join ISRO. 
+            I am also a cricket lover. My favourite team in IPL is Mumbai Indians. My hobbies are playing cricket, drawing, 
+            cycling,and reading books.  </p>
+        
+        <nav>
+            <a href="..\HTML\index.html"><img src="..\IMAGES\Aatish.jpg" ></a>
+            <a href="..\HTML\index.html"><img src="..\IMAGES\IMG_20210427_210200.jpg" ></a>
+            <a href="..\HTML\index.html"><img src="..\IMAGES\parents.jpg" ></a>
+        </nav>    
+        
+    </section>
+<!-- My QUALIFICATIONS -->
+    <section class="Qualifications">
+        <h1>My Qualifications</h1>
+        <p>I have completed my Scooling from DAV PUBLIC SCHOOL CDA sec-6 Cuttack.I  have secured 93.8% in 10th board(2018).
+            I have secured 94.2% in 12th board(2020). I have secured an AIR of 66733 in JEE Main(2020). A part from that I have
+            completed all level of Drawing by securing 1st division in every level(2015). 
+        </p>
+    </section>
+
+<!-- Contact me -->
+
+    <section class="contactme">
+        <h1>You can contact me using this.</h1>
+        <a href="" class="hero">CONTACT ME</a>
+        <h2>Facebook</h2>
+        <p class="b">
+            <img src="../IMAGES/facebook2.png" width="100px" height="100px">
+            <a href="https://www.facebook.com/aatish.moharana">Aatish Kumar Moharana Facebook</a>
+        </p>
+        <h2>LinkedIn</h2>
+        <p class="c">
+            <img src="../IMAGES/linkedin1.jpg" width="100px" height="100px">
+            <a href="https://www.linkedin.com/in/aatish-kumar-m-1a207b204">Aatish Kumar Moharana LinkedIn</a>
+        </p>
+        <h2>Phone contact</h2>
+        <p class="b">
+            <img src="../IMAGES/phone.png" width="100px" height="100px">
+            phone number is 6371061240. Always ready to answer except when my phone is in flight mode.
+        </p>
+    </section>
+
+    
+
+<script>
+    var navLinks = document.getElementById("nav-links")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+</body>
+</html>
